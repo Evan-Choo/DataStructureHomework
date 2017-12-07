@@ -1,0 +1,1 @@
+Pressing f5 is for debugging program and it will pause at breakpoints. While pressing ctrl+f5 is for running the program. When no breakpoints exist, they are the same.

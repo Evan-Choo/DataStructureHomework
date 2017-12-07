@@ -1,0 +1,3 @@
+Because rc and c have different data types, when executing ‘const int &rc = c;’, the compiler will generate a temporary variable which has the value 6 and then rc is actually the reference of the temporary variable. Thus the addresses of rc and c are different and &rc==&c is false.
+
+But i and ri have the same data type, so ri is the reference of i and their addresses are the same. Thus &ri == &i is true.

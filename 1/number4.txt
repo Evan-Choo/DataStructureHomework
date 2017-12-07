@@ -1,0 +1,1 @@
+The objects are constructed first and then destroyed. The local object are destroyed when the stack is destroyed so l4 is destroyed first and then l3. Global objects are destroyed when the program terminates, so l2 is destroyed after l3 and then l1 is destroyed.

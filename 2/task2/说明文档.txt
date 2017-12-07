@@ -1,0 +1,3 @@
+   这个作业我没有采用特别的数据结构，只是使用了两个数组，一个为A，用来存储需要输出的序列，一个为curPosFor,用来存储当前各个数在A中第一个数的位置。
+   在递归函数中，首先判断当前数字curNum的第二个数的位置有没有越界，即curPosFor[curNum]+curNum+1是否小于A的长度，即2*n；以及curNum是否在1到n之间。如果符合条件就进入循环体。
+   进入循环体后判断当前数字curNum的第一个数在A中的位置(curPosFor[curNum])以及第二个数在A中的位置(curPosFor[curNum]+curNum+1)上的数是否是零。如果是，则将这两个位置上的数改为curNum，然后判断curNum是否小于n，是则进入下一次递归，否则跳出while循环；否则将curNum的位置加一。
