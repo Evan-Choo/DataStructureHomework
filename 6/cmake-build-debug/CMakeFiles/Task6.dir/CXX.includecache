@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/EvanChoo/CLionProjects/Task6/MinimumHeap.cpp
+MinimumHeap.h
+/Users/EvanChoo/CLionProjects/Task6/MinimumHeap.h
+
+/Users/EvanChoo/CLionProjects/Task6/MinimumHeap.h
+Node.h
+/Users/EvanChoo/CLionProjects/Task6/Node.h
+iostream
+-
+
+/Users/EvanChoo/CLionProjects/Task6/Node.cpp
+Node.h
+/Users/EvanChoo/CLionProjects/Task6/Node.h
+
+/Users/EvanChoo/CLionProjects/Task6/Node.h
+clocale
+-
+
+/Users/EvanChoo/CLionProjects/Task6/main.cpp
+iostream
+-
+MinimumHeap.h
+/Users/EvanChoo/CLionProjects/Task6/MinimumHeap.h
+
